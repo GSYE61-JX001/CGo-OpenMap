@@ -399,7 +399,30 @@
             registerDate: "2026-09-26",
             status: "active",
             maintainers: [
-                { name: "已码凉", role: "城市主理人", github: "https://github.com/Yimaliang" }
+                { name: "待认领", role: "城市主理人招募中", github: "https://github.com/Yimaliang" }
+            ],
+            isDefault: false
+        }
+    };
+        "chongqing": {
+            id: "chongqing",
+            name: "重庆",
+            themeColor: "#017109",
+            svglogo: null, // 已接入 CGoUI 内置 shijiazhuang 官方矢量图标
+            folder: "./city/chongqing",
+            mainLogic: "./city/chongqing/chongqing.js",
+            center: { x: 2000, y: 1838 },
+            defaultScale: 1.1,
+            mapSize: { width: 894, height: 1121 },
+            searchCity: "重庆",
+            title: "CGo OpenMap - 重庆轨道交通线路图",
+            keywords: "CGo OpenMap, 重庆地铁, 线路图, 轨道交通",
+            description: "包含1-6、9、10、15、18号线、环线、国博线、江跳线与壁铜线。",
+            officialMapUrl: "https://www.cqmetro.cn/yyt/images/all.png",
+            registerDate: "2026-09-26",
+            status: "active",
+             maintainers: [
+                { name: "待认领", role: "城市主理人招募中", isRecruiting: true, github: "https://github.com/NokiaimuL/CGo-OpenMap/blob/main/CONTRIBUTING.md"}
             ],
             isDefault: false
         }
